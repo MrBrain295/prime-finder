@@ -9,7 +9,6 @@ start = time.perf_counter()
 
 def primesfrom2to(n):
     # https://stackoverflow.com/questions/2068372/fastest-way-to-list-all-primes-below-n-in-python/3035188#3035188
-    """ Input n>=6, Returns a array of primes, 2 <= p < n """
     sieve = np.ones(n // 3 + (n % 6 == 2), dtype=bool)
     sieve[0] = False
     for i in range(int(n**0.5) // 3 + 1):
