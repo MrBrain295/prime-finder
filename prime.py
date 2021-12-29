@@ -26,14 +26,12 @@ s = strong1b = [t for s, t, u in zip(p, p[1:], p[2:]) if t > (s + u) / 2]
 w = weak1b = [t for s, t, u in zip(p, p[1:], p[2:]) if t < (s + u) / 2]
 b = balanced1b = [t for s, t, u in zip(p, p[1:], p[2:]) if t == (s + u) / 2]
 
-print(f"The first {l} strong primes:", s[:l])
-print(f"The count of the strong primes below {n}:", sum(1 for p in s if p < n))
-print(f"The count of the strong primes below {n}:", len(s))
-print(f"\nThe first {l} weak primes:", w[:l])
-print(f"The count of the weak primes below {n}:", sum(1 for p in w if p < n))
-print(f"The count of the weak primes below {n}:", len(w))
-print(f"\nThe first {l} balanced primes:", b[:l])
-print(f"The count of balanced primes below {n}:", len(b))
+print(f"The first {l} strong primes: ", s[:l])
+print(f"The count of the strong primes below {n}: ", len(s))
+print(f"\nThe first {l} weak primes: ", w[:l])
+print(f"The count of the weak primes below {n}: ", len(w))
+print(f"\nThe first {l} balanced primes: ", b[:l])
+print(f"The count of balanced primes below {n}: ", len(b))
 print(f"TOTAL primes below {n}:", len(p))
 
 finish = time.perf_counter()
