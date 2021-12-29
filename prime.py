@@ -9,7 +9,7 @@ l = int(input("How many numbers should be displayed? "))
 start = time.perf_counter()
 
 
-def primesfrom2to(q):
+def primesfrom2to(n):
     # https://stackoverflow.com/questions/2068372/fastest-way-to-list-all-primes-below-n-in-python/3035188#3035188
     sieve = np.ones(n // 3 + (n % 6 == 2), dtype=bool)
     sieve[0] = False
