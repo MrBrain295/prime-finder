@@ -4,7 +4,7 @@ import numpy as np
 import time
 
 n = int(input("Enter a Number: "))
-l = int(input("How many numbers should be displayed? "))
+l = int(input(f"How many primes under {n} should be displayed? "))
 start = time.perf_counter()
 
 
