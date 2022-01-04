@@ -5,6 +5,7 @@ import numpy as np
 
 n = int(input("Enter a Number: "))
 l = int(input(f"How many primes under {n} should be displayed? "))
+
 start = time.perf_counter()
 
 
@@ -34,4 +35,4 @@ print(f"The count of balanced primes below {n}: ", len(b))
 print(f"TOTAL primes below {n}:", len(p))
 
 finish = time.perf_counter()
-print(f"Done in {finish - start:0.4f} seconds")
+print(f"Done in {finish- start:0.4f} seconds")
