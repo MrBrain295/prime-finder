@@ -1,0 +1,4 @@
+name: Python quality and format checker
+  uses: konstruktoid/action-pylint@v0.0.6
+on:
+  [push]
