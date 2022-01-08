@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/prime-finder/__init__.py
+src/prime-finder/prime.py
+src/prime_finder_mammillaria.egg-info/PKG-INFO
+src/prime_finder_mammillaria.egg-info/SOURCES.txt
+src/prime_finder_mammillaria.egg-info/dependency_links.txt
+src/prime_finder_mammillaria.egg-info/top_level.txt

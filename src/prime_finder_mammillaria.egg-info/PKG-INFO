@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: prime-finder-mammillaria
+Version: 2.5
+Summary: A prime number finding script
+Home-page: https://github.com/pypa/sampleproject
+Author: MrBrain295
+Author-email: gabewhigham@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/MrBrain295/prime-finder/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Prime Finder
+
+Credit to: <a href="https://rosettacode.org/wiki/Strong_and_weak_primes#Python">Rosettacode</a>, <a href="https://realpython.com/python-timer/">Real Python</a>.
+Rossetacode's python script fixed up, with a timer and user input instead of preset values. <p><b>REQUIRES NumPy.</b></p>
+
+
