@@ -21,7 +21,7 @@ def primes_from_2_to(n):
     return np.r_[2, 3, ((3 * np.nonzero(sieve)[0] + 1) | 1)]
 
 
-p = primes1b = primesfrom2to(n)
+p = primes1b = primes_from_2_to(n)
 s = strong1b = [t for s, t, u in zip(p, p[1:], p[2:]) if t > (s + u) / 2]
 w = weak1b = [t for s, t, u in zip(p, p[1:], p[2:]) if t < (s + u) / 2]
 b = balanced1b = [t for s, t, u in zip(p, p[1:], p[2:]) if t == (s + u) / 2]
