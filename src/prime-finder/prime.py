@@ -3,8 +3,8 @@
 import time
 import numpy as np
 
-n = int(input("Enter a Number: "))
-x = int(input(f"How many primes under {n} should be displayed? "))
+n = int(eval(input("Enter a Number: ")))
+x = int(eval(input(f"How many primes under {n} should be displayed? ")))
 
 start = time.perf_counter()
 
